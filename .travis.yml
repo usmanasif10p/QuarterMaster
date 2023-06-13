@@ -1,6 +1,4 @@
-#  <#Title#>
-
-language: swift
+language: objective-c
 
 osx_image: xcode13.4
 env:
