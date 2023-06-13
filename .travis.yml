@@ -1,0 +1,12 @@
+#  <#Title#>
+
+language: swift
+
+osx_image: xcode13.4.1
+env:
+  matrix:
+    - TEST_SDK=iphonesimulator15.5 OS=15.5 NAME='iPhone 13 mini'
+    - TEST_SDK=iphonesimulator15.5 OS=15.5 NAME='iPhone 13 Pro Max'
+
+script:
+  - set -o pipefail && xcodebuild test -enableCodeCoverage YES -project QuarterMaster.xcodeproj -scheme QuarterMaster -sdk $TEST_SDK -destination "platform=iOS Simulator,OS=$OS,name=$NAME" ONLY_ACTIVE_ARCH=YES
