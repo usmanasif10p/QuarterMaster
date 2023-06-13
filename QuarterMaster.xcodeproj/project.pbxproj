@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2ED68EE256CA0C9A98F2FCA0 /* Pods_QuarterMasterDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65EB6ABE58E30580215BC7D1 /* Pods_QuarterMasterDemo.framework */; };
 		5DFB0C7C2A385736008568C2 /* QuarterMaster.docc in Sources */ = {isa = PBXBuildFile; fileRef = 5DFB0C7B2A385736008568C2 /* QuarterMaster.docc */; };
 		5DFB0C822A385736008568C2 /* QuarterMaster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DFB0C772A385736008568C2 /* QuarterMaster.framework */; };
 		5DFB0C872A385736008568C2 /* QuarterMasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFB0C862A385736008568C2 /* QuarterMasterTests.swift */; };
@@ -18,6 +19,9 @@
 		5DFB0CA12A385844008568C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DFB0CA02A385844008568C2 /* Assets.xcassets */; };
 		5DFB0CA42A385844008568C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DFB0CA22A385844008568C2 /* LaunchScreen.storyboard */; };
 		5DFB0CAA2A385BB1008568C2 /* QuarterMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFB0CA92A385BB1008568C2 /* QuarterMaster.swift */; };
+		5DFB0CAD2A3877EC008568C2 /* QuarterMaster.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 5DFB0CAC2A3877EC008568C2 /* QuarterMaster.podspec */; };
+		AFE9ABDBA146D2D3D04B4443 /* Pods_QuarterMaster_QuarterMasterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA87BB493765B5C8A8F0614 /* Pods_QuarterMaster_QuarterMasterTests.framework */; };
+		BBF5A24DB8321B3D324FB682 /* Pods_QuarterMaster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACF491BFE5039BAD304FD86E /* Pods_QuarterMaster.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22070CA872BBF6311035B5A2 /* Pods-QuarterMasterDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuarterMasterDemo.release.xcconfig"; path = "Target Support Files/Pods-QuarterMasterDemo/Pods-QuarterMasterDemo.release.xcconfig"; sourceTree = "<group>"; };
+		57D2C9EE60BD63671036DB63 /* Pods-QuarterMasterDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuarterMasterDemo.debug.xcconfig"; path = "Target Support Files/Pods-QuarterMasterDemo/Pods-QuarterMasterDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		5DFB0C772A385736008568C2 /* QuarterMaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QuarterMaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DFB0C7A2A385736008568C2 /* QuarterMaster.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuarterMaster.h; sourceTree = "<group>"; };
 		5DFB0C7B2A385736008568C2 /* QuarterMaster.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = QuarterMaster.docc; sourceTree = "<group>"; };
@@ -46,6 +52,14 @@
 		5DFB0CA52A385844008568C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DFB0CA92A385BB1008568C2 /* QuarterMaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuarterMaster.swift; sourceTree = "<group>"; };
 		5DFB0CAB2A386C28008568C2 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .travis.yml; sourceTree = "<group>"; };
+		5DFB0CAC2A3877EC008568C2 /* QuarterMaster.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = QuarterMaster.podspec; sourceTree = "<group>"; };
+		65EB6ABE58E30580215BC7D1 /* Pods_QuarterMasterDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuarterMasterDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E9E1D81FCDF14DEE2593982 /* Pods-QuarterMaster-QuarterMasterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuarterMaster-QuarterMasterTests.release.xcconfig"; path = "Target Support Files/Pods-QuarterMaster-QuarterMasterTests/Pods-QuarterMaster-QuarterMasterTests.release.xcconfig"; sourceTree = "<group>"; };
+		7F0906EBCA1B5FF8D912FAF7 /* Pods-QuarterMaster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuarterMaster.release.xcconfig"; path = "Target Support Files/Pods-QuarterMaster/Pods-QuarterMaster.release.xcconfig"; sourceTree = "<group>"; };
+		9AA87BB493765B5C8A8F0614 /* Pods_QuarterMaster_QuarterMasterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuarterMaster_QuarterMasterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACF491BFE5039BAD304FD86E /* Pods_QuarterMaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuarterMaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B390C9AD907D4430DA4D06CD /* Pods-QuarterMaster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuarterMaster.debug.xcconfig"; path = "Target Support Files/Pods-QuarterMaster/Pods-QuarterMaster.debug.xcconfig"; sourceTree = "<group>"; };
+		FB8D33F054C0D56F5F3DCA80 /* Pods-QuarterMaster-QuarterMasterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuarterMaster-QuarterMasterTests.debug.xcconfig"; path = "Target Support Files/Pods-QuarterMaster-QuarterMasterTests/Pods-QuarterMaster-QuarterMasterTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBF5A24DB8321B3D324FB682 /* Pods_QuarterMaster.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DFB0C822A385736008568C2 /* QuarterMaster.framework in Frameworks */,
+				AFE9ABDBA146D2D3D04B4443 /* Pods_QuarterMaster_QuarterMasterTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2ED68EE256CA0C9A98F2FCA0 /* Pods_QuarterMasterDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,11 +94,14 @@
 		5DFB0C6D2A385736008568C2 = {
 			isa = PBXGroup;
 			children = (
+				5DFB0CAC2A3877EC008568C2 /* QuarterMaster.podspec */,
 				5DFB0CAB2A386C28008568C2 /* .travis.yml */,
 				5DFB0C792A385736008568C2 /* QuarterMaster */,
 				5DFB0C852A385736008568C2 /* QuarterMasterTests */,
 				5DFB0C962A385842008568C2 /* QuarterMasterDemo */,
 				5DFB0C782A385736008568C2 /* Products */,
+				6A47E925CB851EDBCFF50D3F /* Pods */,
+				77C7293F117B76E868E35AE7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +147,30 @@
 			path = QuarterMasterDemo;
 			sourceTree = "<group>";
 		};
+		6A47E925CB851EDBCFF50D3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B390C9AD907D4430DA4D06CD /* Pods-QuarterMaster.debug.xcconfig */,
+				7F0906EBCA1B5FF8D912FAF7 /* Pods-QuarterMaster.release.xcconfig */,
+				FB8D33F054C0D56F5F3DCA80 /* Pods-QuarterMaster-QuarterMasterTests.debug.xcconfig */,
+				6E9E1D81FCDF14DEE2593982 /* Pods-QuarterMaster-QuarterMasterTests.release.xcconfig */,
+				57D2C9EE60BD63671036DB63 /* Pods-QuarterMasterDemo.debug.xcconfig */,
+				22070CA872BBF6311035B5A2 /* Pods-QuarterMasterDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		77C7293F117B76E868E35AE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACF491BFE5039BAD304FD86E /* Pods_QuarterMaster.framework */,
+				9AA87BB493765B5C8A8F0614 /* Pods_QuarterMaster_QuarterMasterTests.framework */,
+				65EB6ABE58E30580215BC7D1 /* Pods_QuarterMasterDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -145,6 +189,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5DFB0C8B2A385736008568C2 /* Build configuration list for PBXNativeTarget "QuarterMaster" */;
 			buildPhases = (
+				C7B7A6399737F6515ACC5056 /* [CP] Check Pods Manifest.lock */,
 				5DFB0C722A385736008568C2 /* Headers */,
 				5DFB0C732A385736008568C2 /* Sources */,
 				5DFB0C742A385736008568C2 /* Frameworks */,
@@ -163,6 +208,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5DFB0C8E2A385736008568C2 /* Build configuration list for PBXNativeTarget "QuarterMasterTests" */;
 			buildPhases = (
+				9CF4739E22345E7C83EB8696 /* [CP] Check Pods Manifest.lock */,
 				5DFB0C7D2A385736008568C2 /* Sources */,
 				5DFB0C7E2A385736008568C2 /* Frameworks */,
 				5DFB0C7F2A385736008568C2 /* Resources */,
@@ -181,6 +227,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5DFB0CA62A385844008568C2 /* Build configuration list for PBXNativeTarget "QuarterMasterDemo" */;
 			buildPhases = (
+				1ADF609646383E34C1667AFA /* [CP] Check Pods Manifest.lock */,
 				5DFB0C912A385842008568C2 /* Sources */,
 				5DFB0C922A385842008568C2 /* Frameworks */,
 				5DFB0C932A385842008568C2 /* Resources */,
@@ -240,6 +287,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DFB0CAD2A3877EC008568C2 /* QuarterMaster.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +309,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1ADF609646383E34C1667AFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuarterMasterDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CF4739E22345E7C83EB8696 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuarterMaster-QuarterMasterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7B7A6399737F6515ACC5056 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuarterMaster-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5DFB0C732A385736008568C2 /* Sources */ = {
@@ -371,7 +488,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -428,7 +545,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -442,6 +559,7 @@
 		};
 		5DFB0C8C2A385736008568C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B390C9AD907D4430DA4D06CD /* Pods-QuarterMaster.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -469,6 +587,7 @@
 		};
 		5DFB0C8D2A385736008568C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F0906EBCA1B5FF8D912FAF7 /* Pods-QuarterMaster.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -496,6 +615,7 @@
 		};
 		5DFB0C8F2A385736008568C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB8D33F054C0D56F5F3DCA80 /* Pods-QuarterMaster-QuarterMasterTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -512,6 +632,7 @@
 		};
 		5DFB0C902A385736008568C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E9E1D81FCDF14DEE2593982 /* Pods-QuarterMaster-QuarterMasterTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +649,7 @@
 		};
 		5DFB0CA72A385844008568C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57D2C9EE60BD63671036DB63 /* Pods-QuarterMasterDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -555,6 +677,7 @@
 		};
 		5DFB0CA82A385844008568C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22070CA872BBF6311035B5A2 /* Pods-QuarterMasterDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
