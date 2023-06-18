@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2ED68EE256CA0C9A98F2FCA0 /* Pods_QuarterMasterDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65EB6ABE58E30580215BC7D1 /* Pods_QuarterMasterDemo.framework */; };
+		5DBA2A3F2A3EE90200B2F4B9 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBA2A3E2A3EE90200B2F4B9 /* File.swift */; };
 		5DFB0C7C2A385736008568C2 /* QuarterMaster.docc in Sources */ = {isa = PBXBuildFile; fileRef = 5DFB0C7B2A385736008568C2 /* QuarterMaster.docc */; };
 		5DFB0C822A385736008568C2 /* QuarterMaster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DFB0C772A385736008568C2 /* QuarterMaster.framework */; };
 		5DFB0C872A385736008568C2 /* QuarterMasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFB0C862A385736008568C2 /* QuarterMasterTests.swift */; };
@@ -15,11 +16,18 @@
 		5DFB0C982A385842008568C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFB0C972A385842008568C2 /* AppDelegate.swift */; };
 		5DFB0C9A2A385842008568C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFB0C992A385842008568C2 /* SceneDelegate.swift */; };
 		5DFB0C9C2A385842008568C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFB0C9B2A385842008568C2 /* ViewController.swift */; };
-		5DFB0C9F2A385842008568C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DFB0C9D2A385842008568C2 /* Main.storyboard */; };
 		5DFB0CA12A385844008568C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DFB0CA02A385844008568C2 /* Assets.xcassets */; };
 		5DFB0CA42A385844008568C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DFB0CA22A385844008568C2 /* LaunchScreen.storyboard */; };
 		5DFB0CAA2A385BB1008568C2 /* QuarterMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFB0CA92A385BB1008568C2 /* QuarterMaster.swift */; };
 		5DFB0CAD2A3877EC008568C2 /* QuarterMaster.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 5DFB0CAC2A3877EC008568C2 /* QuarterMaster.podspec */; };
+		5DFB0D542A3B21EC008568C2 /* BaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFB0D4E2A3B21EC008568C2 /* BaseRouter.swift */; };
+		5DFB0D552A3B21EC008568C2 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFB0D4F2A3B21EC008568C2 /* BaseViewModel.swift */; };
+		5DFB0D562A3B21EC008568C2 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFB0D502A3B21EC008568C2 /* BaseView.swift */; };
+		5DFB0D572A3B21EC008568C2 /* AlamofireAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFB0D522A3B21EC008568C2 /* AlamofireAdapter.swift */; };
+		5DFB0D582A3B21EC008568C2 /* BaseNetworkAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFB0D532A3B21EC008568C2 /* BaseNetworkAdapter.swift */; };
+		5DFB0D672A3CFC24008568C2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFB0D652A3CFC24008568C2 /* HomeView.swift */; };
+		5DFB0D682A3CFC24008568C2 /* HomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DFB0D662A3CFC24008568C2 /* HomeView.xib */; };
+		5DFB0D6A2A3CFC4B008568C2 /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFB0D692A3CFC4B008568C2 /* HomeVM.swift */; };
 		AFE9ABDBA146D2D3D04B4443 /* Pods_QuarterMaster_QuarterMasterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA87BB493765B5C8A8F0614 /* Pods_QuarterMaster_QuarterMasterTests.framework */; };
 		BBF5A24DB8321B3D324FB682 /* Pods_QuarterMaster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACF491BFE5039BAD304FD86E /* Pods_QuarterMaster.framework */; };
 /* End PBXBuildFile section */
@@ -37,6 +45,7 @@
 /* Begin PBXFileReference section */
 		22070CA872BBF6311035B5A2 /* Pods-QuarterMasterDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuarterMasterDemo.release.xcconfig"; path = "Target Support Files/Pods-QuarterMasterDemo/Pods-QuarterMasterDemo.release.xcconfig"; sourceTree = "<group>"; };
 		57D2C9EE60BD63671036DB63 /* Pods-QuarterMasterDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuarterMasterDemo.debug.xcconfig"; path = "Target Support Files/Pods-QuarterMasterDemo/Pods-QuarterMasterDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		5DBA2A3E2A3EE90200B2F4B9 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		5DFB0C772A385736008568C2 /* QuarterMaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QuarterMaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DFB0C7A2A385736008568C2 /* QuarterMaster.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuarterMaster.h; sourceTree = "<group>"; };
 		5DFB0C7B2A385736008568C2 /* QuarterMaster.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = QuarterMaster.docc; sourceTree = "<group>"; };
@@ -46,13 +55,20 @@
 		5DFB0C972A385842008568C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DFB0C992A385842008568C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5DFB0C9B2A385842008568C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5DFB0C9E2A385842008568C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5DFB0CA02A385844008568C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DFB0CA32A385844008568C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DFB0CA52A385844008568C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DFB0CA92A385BB1008568C2 /* QuarterMaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuarterMaster.swift; sourceTree = "<group>"; };
 		5DFB0CAB2A386C28008568C2 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .travis.yml; sourceTree = "<group>"; };
-		5DFB0CAC2A3877EC008568C2 /* QuarterMaster.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = QuarterMaster.podspec; sourceTree = "<group>"; };
+		5DFB0CAC2A3877EC008568C2 /* QuarterMaster.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = QuarterMaster.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5DFB0D4E2A3B21EC008568C2 /* BaseRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRouter.swift; sourceTree = "<group>"; };
+		5DFB0D4F2A3B21EC008568C2 /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		5DFB0D502A3B21EC008568C2 /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		5DFB0D522A3B21EC008568C2 /* AlamofireAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireAdapter.swift; sourceTree = "<group>"; };
+		5DFB0D532A3B21EC008568C2 /* BaseNetworkAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNetworkAdapter.swift; sourceTree = "<group>"; };
+		5DFB0D652A3CFC24008568C2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5DFB0D662A3CFC24008568C2 /* HomeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeView.xib; sourceTree = "<group>"; };
+		5DFB0D692A3CFC4B008568C2 /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
 		65EB6ABE58E30580215BC7D1 /* Pods_QuarterMasterDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuarterMasterDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E9E1D81FCDF14DEE2593982 /* Pods-QuarterMaster-QuarterMasterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuarterMaster-QuarterMasterTests.release.xcconfig"; path = "Target Support Files/Pods-QuarterMaster-QuarterMasterTests/Pods-QuarterMaster-QuarterMasterTests.release.xcconfig"; sourceTree = "<group>"; };
 		7F0906EBCA1B5FF8D912FAF7 /* Pods-QuarterMaster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuarterMaster.release.xcconfig"; path = "Target Support Files/Pods-QuarterMaster/Pods-QuarterMaster.release.xcconfig"; sourceTree = "<group>"; };
@@ -120,7 +136,12 @@
 			children = (
 				5DFB0C7B2A385736008568C2 /* QuarterMaster.docc */,
 				5DFB0C7A2A385736008568C2 /* QuarterMaster.h */,
+				5DFB0D4E2A3B21EC008568C2 /* BaseRouter.swift */,
+				5DFB0D502A3B21EC008568C2 /* BaseView.swift */,
+				5DFB0D4F2A3B21EC008568C2 /* BaseViewModel.swift */,
 				5DFB0CA92A385BB1008568C2 /* QuarterMaster.swift */,
+				5DFB0D6B2A3D011E008568C2 /* FileManager */,
+				5DFB0D512A3B21EC008568C2 /* Network */,
 			);
 			path = QuarterMaster;
 			sourceTree = "<group>";
@@ -137,14 +158,33 @@
 			isa = PBXGroup;
 			children = (
 				5DFB0C972A385842008568C2 /* AppDelegate.swift */,
+				5DFB0CA02A385844008568C2 /* Assets.xcassets */,
+				5DFB0D652A3CFC24008568C2 /* HomeView.swift */,
+				5DFB0D662A3CFC24008568C2 /* HomeView.xib */,
+				5DFB0D692A3CFC4B008568C2 /* HomeVM.swift */,
+				5DFB0CA52A385844008568C2 /* Info.plist */,
+				5DFB0CA22A385844008568C2 /* LaunchScreen.storyboard */,
 				5DFB0C992A385842008568C2 /* SceneDelegate.swift */,
 				5DFB0C9B2A385842008568C2 /* ViewController.swift */,
-				5DFB0C9D2A385842008568C2 /* Main.storyboard */,
-				5DFB0CA02A385844008568C2 /* Assets.xcassets */,
-				5DFB0CA22A385844008568C2 /* LaunchScreen.storyboard */,
-				5DFB0CA52A385844008568C2 /* Info.plist */,
 			);
 			path = QuarterMasterDemo;
+			sourceTree = "<group>";
+		};
+		5DFB0D512A3B21EC008568C2 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5DFB0D522A3B21EC008568C2 /* AlamofireAdapter.swift */,
+				5DFB0D532A3B21EC008568C2 /* BaseNetworkAdapter.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		5DFB0D6B2A3D011E008568C2 /* FileManager */ = {
+			isa = PBXGroup;
+			children = (
+				5DBA2A3E2A3EE90200B2F4B9 /* File.swift */,
+			);
+			path = FileManager;
 			sourceTree = "<group>";
 		};
 		6A47E925CB851EDBCFF50D3F /* Pods */ = {
@@ -157,7 +197,6 @@
 				57D2C9EE60BD63671036DB63 /* Pods-QuarterMasterDemo.debug.xcconfig */,
 				22070CA872BBF6311035B5A2 /* Pods-QuarterMasterDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -212,6 +251,7 @@
 				5DFB0C7D2A385736008568C2 /* Sources */,
 				5DFB0C7E2A385736008568C2 /* Frameworks */,
 				5DFB0C7F2A385736008568C2 /* Resources */,
+				5EECB5D30B4F4CFF0AF93384 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -303,8 +343,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DFB0CA42A385844008568C2 /* LaunchScreen.storyboard in Resources */,
+				5DFB0D682A3CFC24008568C2 /* HomeView.xib in Resources */,
 				5DFB0CA12A385844008568C2 /* Assets.xcassets in Resources */,
-				5DFB0C9F2A385842008568C2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +371,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EECB5D30B4F4CFF0AF93384 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuarterMaster-QuarterMasterTests/Pods-QuarterMaster-QuarterMasterTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuarterMaster-QuarterMasterTests/Pods-QuarterMaster-QuarterMasterTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuarterMaster-QuarterMasterTests/Pods-QuarterMaster-QuarterMasterTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9CF4739E22345E7C83EB8696 /* [CP] Check Pods Manifest.lock */ = {
@@ -385,7 +442,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DFB0CAA2A385BB1008568C2 /* QuarterMaster.swift in Sources */,
+				5DFB0D582A3B21EC008568C2 /* BaseNetworkAdapter.swift in Sources */,
+				5DFB0D552A3B21EC008568C2 /* BaseViewModel.swift in Sources */,
 				5DFB0C7C2A385736008568C2 /* QuarterMaster.docc in Sources */,
+				5DFB0D562A3B21EC008568C2 /* BaseView.swift in Sources */,
+				5DBA2A3F2A3EE90200B2F4B9 /* File.swift in Sources */,
+				5DFB0D572A3B21EC008568C2 /* AlamofireAdapter.swift in Sources */,
+				5DFB0D542A3B21EC008568C2 /* BaseRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +465,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DFB0C9C2A385842008568C2 /* ViewController.swift in Sources */,
+				5DFB0D6A2A3CFC4B008568C2 /* HomeVM.swift in Sources */,
+				5DFB0D672A3CFC24008568C2 /* HomeView.swift in Sources */,
 				5DFB0C982A385842008568C2 /* AppDelegate.swift in Sources */,
 				5DFB0C9A2A385842008568C2 /* SceneDelegate.swift in Sources */,
 			);
@@ -418,14 +483,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5DFB0C9D2A385842008568C2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5DFB0C9E2A385842008568C2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5DFB0CA22A385844008568C2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

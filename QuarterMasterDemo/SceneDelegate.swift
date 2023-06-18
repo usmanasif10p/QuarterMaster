@@ -1,10 +1,3 @@
-//
-//  SceneDelegate.swift
-//  QuarterMasterDemo
-//
-//  Created by BilalAsif on 13/06/2023.
-//
-
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {

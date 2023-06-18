@@ -6,6 +6,9 @@ target 'QuarterMaster' do
   use_frameworks!
 
   # Pods for QuarterMaster
+  pod 'Alamofire', '~> 5.7'
+  pod 'AlamofireImage', '~> 4.1'
+  #pod 'RealmSwift', '~> 10.39'
 
   target 'QuarterMasterTests' do
     # Pods for testing

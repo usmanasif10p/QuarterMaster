@@ -1,10 +1,3 @@
-//
-//  QuarterMaster.swift
-//  QuarterMaster
-//
-//  Created by BilalAsif on 13/06/2023.
-//
-
 import Foundation
 
 public final class SwiftyLib {

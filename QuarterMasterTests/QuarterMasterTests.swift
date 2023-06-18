@@ -1,10 +1,3 @@
-//
-//  QuarterMasterTests.swift
-//  QuarterMasterTests
-//
-//  Created by BilalAsif on 13/06/2023.
-//
-
 import XCTest
 @testable import QuarterMaster
 

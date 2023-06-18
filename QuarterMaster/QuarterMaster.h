@@ -1,10 +1,3 @@
-//
-//  QuarterMaster.h
-//  QuarterMaster
-//
-//  Created by BilalAsif on 13/06/2023.
-//
-
 #import <Foundation/Foundation.h>
 
 //! Project version number for QuarterMaster.
